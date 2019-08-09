@@ -62,14 +62,6 @@ appDelegate.window.rootViewController = [storyboard instantiateViewControllerWit
 
 接下来，只要进入对应的控制器找到内测泄漏的代码就OK了，一般是Block里引用了 `self`，改为 `weakSelf` 就解决了。
 
-```objc
-#define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
-
-WS(weakSelf)
-sView.btnBlock = ^(NSInteger idx){
-    [weakSelf.tableView reloadSections:[NSIndexSet indexSetWithIndex:idx] withRowAnimation:UITableViewRowAnimationAutomatic];
-};
-```
 
 ## 结语
 
