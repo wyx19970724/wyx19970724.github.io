@@ -1,10 +1,10 @@
 # Site settings
 title: Jiniee Blog
-SEOTitle: 允曦的博客 | Jiniee Blog
+SEOTitle: Jiniee Blog
 header-img: img/wkj.jpg
 email: 1787698843@qq.com
 description: "Every failure is leading towards success."
-keyword: "Jiniee, Jiniee Blog, 允曦的博客, wyx19970724, 允曦, iOS, Apple, iPhone"
+keyword: "Jiniee, Jiniee Blog, Jiniee Blog, wyx19970724, 允曦, iOS, Apple, iPhone"
 url: "http://wyx19970724.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/wyx19970724/wyx19970724.github.io.git" # you code repository
